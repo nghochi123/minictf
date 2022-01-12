@@ -9,7 +9,10 @@ export default function App() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Home />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route
+          path="/8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918"
+          element={<Admin />}
+        />
       </Routes>
     </Router>
   );
@@ -35,7 +38,9 @@ function Login() {
   const onSubmit = (e) => {
     e.preventDefault();
     if (user === actUser && password === actPass) {
-      navigate("/admin");
+      navigate(
+        "/8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918"
+      );
     } else {
       setWrong(true);
     }
@@ -74,8 +79,8 @@ function Login() {
       <p>{wrong ? "Your password is incorrect, please try again." : ""}</p>
       <react-comment>
         James, since you have forgotten your password AGAIN, I have updated your
-        password to: sup3rh4x0r. Please reset it once you enter, and remember to
-        delete this comment.
+        password: Now your username is james and your password is sup3rh4x0r.
+        Please reset it once you enter, and remember to delete this comment.
       </react-comment>
     </div>
   );
@@ -87,7 +92,7 @@ function Admin() {
       <h1>Admin page</h1>
       <p>
         Welcome to the super secret admin page. If you are here, you must be
-        James. Please access /manual to see your next task.
+        James. Please access /manual to see your next task. (not done yet)
       </p>
     </div>
   );
