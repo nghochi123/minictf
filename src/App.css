@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.hide {
+  display: inline;
+  background-color: black;
+}
+
+.hide:hover {
+  background-color: white;
+}
+
+.pageContainer {
+  margin: 20px;
+}
+
+.verticalContainer {
+  width: 70%;
+  align-items: center;
+  display: flex;
+}
+
+.image {
+  margin: 20px;
+  height: 200px;
+}
+
+.footer {
+  position:absolute;
+  font-size: 14px;
+  left:0;
+  bottom:0;
+  right:0;
+}
