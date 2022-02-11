@@ -8,6 +8,7 @@ import Tut4 from "./Tut4";
 import Tut5 from "./Tut5";
 import Tut6 from "./Tut6";
 import Tut7 from "./Tut7";
+import Missing from "./Missing";
 
 export default function TutorialMain() {
   return (
@@ -21,13 +22,14 @@ export default function TutorialMain() {
       }}
     >
       <Routes>
-        <Route path={`/firstpart`} element={<Tut1 />} />
+        <Route path={`/welcome`} element={<Tut1 />} />
         <Route path={`/r0undtw0`} element={<Tut2 />} />
         <Route path={`/h1dd3nt3xt`} element={<Tut3 />} />
         <Route path={`/st34lth`} element={<Tut4 />} />
         <Route path={`/p3p34lyf`} element={<Tut5 />} />
         <Route path={`/deeznuts`} element={<Tut6 />} />
         <Route path={`/rotatethirteen`} element={<Tut7 />} />
+        <Route path={`/*`} element={<Missing />} />
       </Routes>
     </div>
   );
