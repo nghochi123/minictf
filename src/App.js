@@ -5,6 +5,8 @@ import "react-jsx-html-comments";
 import Moveable from "react-moveable";
 import "./App.css";
 
+import TutorialMain from "./screens/tutorial/main";
+
 function importAll(r) {
   let images = {};
   r.keys().forEach((item, index) => {
@@ -24,7 +26,8 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/tutorial/*" element={<TutorialMain />} />
+        <Route path="/login/*" element={<Login />} />
         <Route path="/" element={<Home />} />
         <Route
           path="/8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918"
