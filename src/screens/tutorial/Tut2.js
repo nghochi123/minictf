@@ -7,7 +7,8 @@ export default function Tutorial2(props) {
     <div style={{ margin: 20 }}>
       <p>Here, we'll teach you about some ways to hide text on a page.</p>
       <p>Try highlighting all the text here.</p>
-      <p style={{ color: "white" }}>
+      <div style={{ color: "white" }}>
+        <p>
         This text over here is hidden! Read on to find out more and get the next
         url.
       </p>
@@ -20,6 +21,7 @@ export default function Tutorial2(props) {
         See the differently coloured text on the page? That's a comment. You
         can't see it on the page, but it's there.
       </p>
+      </div>
       <react-comment>Nice work. Your next link is /h1dd3nt3xt</react-comment>
     </div>
   );

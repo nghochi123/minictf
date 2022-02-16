@@ -8,6 +8,9 @@ import Tut4 from "./Tut4";
 import Tut5 from "./Tut5";
 import Tut6 from "./Tut6";
 import Tut7 from "./Tut7";
+import Tut7Trees from "./Tut7Trees";
+import Tut7Map from "./Tut7Map";
+import Tut7Final from "./Tut7Final";
 import Missing from "./Missing";
 
 export default function TutorialMain() {
@@ -29,6 +32,9 @@ export default function TutorialMain() {
         <Route path={`/p3p34lyf`} element={<Tut5 />} />
         <Route path={`/deeznuts`} element={<Tut6 />} />
         <Route path={`/rotatethirteen`} element={<Tut7 />} />
+        <Route path={`/darkforest`} element={<Tut7Trees />} />
+        <Route path={`/themap`} element={<Tut7Map />} />
+        <Route path={`/indianajones`} element={<Tut7Final />} />
         <Route path={`/*`} element={<Missing />} />
       </Routes>
     </div>

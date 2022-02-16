@@ -6,6 +6,7 @@ import Moveable from "react-moveable";
 import "./App.css";
 
 import TutorialMain from "./screens/tutorial/main";
+import GameMain from "./screens/game/main";
 
 function importAll(r) {
   let images = {};
@@ -27,6 +28,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/tutorial/*" element={<TutorialMain />} />
+        <Route path="/game/*" element={<GameMain />} />
         <Route path="/login/*" element={<Login />} />
         <Route path="/" element={<Home />} />
         <Route
