@@ -67,8 +67,8 @@ export default function TutorialMain() {
           style={{
             height: "300",
             position: "absolute",
-            top: "0%",
-            left: "0%",
+            top: "100%",
+            left: "100%",
             margin: "5px",
           }}
         />
