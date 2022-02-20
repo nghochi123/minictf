@@ -57,20 +57,13 @@ export default function TutorialMain() {
       <div
         style={{
           position: "absolute",
-          top: "50%",
-          left: "50%",
+          top: "0%",
+          left: "0%",
           transform: "translate(-50%, -50%)",
           textAlign: "center",
         }}
       >
-        <img src="/map/0,1.png" alt="map" 
-          style={{
-            height: "300",
-            position: "fixed",
-            top: "0",
-            left: "0",
-          }}
-        />
+        <img src="/map/0,1.png" alt="map" height="300"/>
       </div>
     </div>
   );
