@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import GameMap00 from "./0,0";
+// import GameMap00 from "./0,0";
 import GameMap10 from "./1,0";
 import GameMap20 from "./2,0";
 import GameMap30 from "./3,0";
@@ -37,10 +37,10 @@ export default function GameMain() {
   return (
     <div>
       <Routes>
-        <Route
+        {/* <Route
           path={`/178e450bf3726515417cea82ea10b5bc36540c49a66f460c4f847d9c39de037b`}
           element={<GameMap00 />}
-        />
+        /> */}
         <Route
           path={`/fe2267d9198219da887760a0f36389966c7c4d745613ecde9a4924d181059aec`}
           element={<GameMap10 />}
