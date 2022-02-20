@@ -66,6 +66,23 @@ export default function TutorialMain() {
       >
         <img src="/map/4,0.png" alt="map" height="300" />
       </div>
+
+      <div
+        style={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          textAlign: "center",
+          transform: "translate(50%, 50%)",
+          border: "5px solid black",
+        }}
+      >
+        <p>
+          You found yourselves trapped in a dark and spooky cave with the entrance sealed off.<br/>
+          You decide to proceed deeper into the cave, maybe there will be a way out!
+        </p>
+      </div>
+      
     </div>
   );
 }       
