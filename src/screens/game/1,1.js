@@ -64,7 +64,7 @@ export default function TutorialMain() {
           border: "5px solid black",
         }}
       >
-        <img src="/map/1,1.png" alt="map" height="300" />
+        <img src="/map/1,1.png" alt="map" height="30%" />
       </div>
     </div>
   );

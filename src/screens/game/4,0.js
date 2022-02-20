@@ -18,6 +18,7 @@ export default function TutorialMain() {
       >
         North
       </a>
+
       <a
         style={{
           position: "absolute",
@@ -36,11 +37,11 @@ export default function TutorialMain() {
           top: "0%",
           left: "0%",
           textAlign: "center",
-          margin: "10px",
+          margin: "5px",
           border: "5px solid black",
         }}
       >
-        <img src="/map/4,0.png" alt="map" height="300" />
+        <img src="/map/4,0.png" alt="map" height="30%" />
       </div>
 
       <div
@@ -58,7 +59,6 @@ export default function TutorialMain() {
           You decide to proceed deeper into the cave, maybe there will be a way out!
         </p>
       </div>
-
     </div>
   );
 }       

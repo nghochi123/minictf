@@ -70,7 +70,7 @@ export default function TutorialMain() {{
           border: "5px solid black",
         }}}}
       >
-        <img src="/map/{j},{i}.png" alt="map" height="300" />
+        <img src="/map/{j},{i}.png" alt="map" height="30%" />
       </div>
     </div>
   );
