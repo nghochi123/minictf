@@ -14,7 +14,7 @@ export default function TutorialMain() {
           fontSize: "1.5em",
           transform: "translate(-50%, 0)",
         }}
-        href="./game/bd8cafd4e95ad8108b12e90682c3ae4c93e7ebaa3137ae5a12710da55cb3ca04"
+        href="./bd8cafd4e95ad8108b12e90682c3ae4c93e7ebaa3137ae5a12710da55cb3ca04"
       >
         North
       </a>
@@ -26,7 +26,7 @@ export default function TutorialMain() {
           fontSize: "1.5em",
           transform: "translate(-50%, 0)",
         }}
-        href="./game/76464416e991444913fda51d0893b88c89269bfc2e16444a9a332c3bac2f8fe9"
+        href="./76464416e991444913fda51d0893b88c89269bfc2e16444a9a332c3bac2f8fe9"
       >
         South
       </a>
@@ -38,7 +38,7 @@ export default function TutorialMain() {
           fontSize: "1.5em",
           transform: "translate(0, -50%)",
         }}
-        href="./game/5854db683cdf2601f9e2afffb97140fec2d34f299215246acc1dd6ef247cdd0d"
+        href="./5854db683cdf2601f9e2afffb97140fec2d34f299215246acc1dd6ef247cdd0d"
       >
         West
       </a>
@@ -50,7 +50,7 @@ export default function TutorialMain() {
           fontSize: "1.5em",
           transform: "translate(0, -50%)",
         }}
-        href="./game/0102a778bdf45eac8270c9eda194419be4435645aa6cd0dffe584a1850a3f09c"
+        href="./0102a778bdf45eac8270c9eda194419be4435645aa6cd0dffe584a1850a3f09c"
       >
         East
       </a>
@@ -60,6 +60,8 @@ export default function TutorialMain() {
           top: "0%",
           left: "0%",
           textAlign: "center",
+          margin: "5px",
+          border: "5px solid black",
         }}
       >
         <img src="/map/4,4.png" alt="map" height="300" />

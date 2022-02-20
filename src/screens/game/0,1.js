@@ -60,9 +60,11 @@ export default function TutorialMain() {
           top: "0%",
           left: "0%",
           textAlign: "center",
+          margin: "5px",
+          border: "5px solid black",
         }}
       >
-        <img src="/map/0,1.png" alt="map" height="300"/>
+        <img src="/map/0,1.png" alt="map" height="300" />
       </div>
     </div>
   );
