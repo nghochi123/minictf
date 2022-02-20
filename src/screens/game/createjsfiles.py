@@ -3,8 +3,8 @@ import hashlib
 
 for i in range(6):
     for j in range(5):
-        with open(f"./{j},{i}.js", 'a') as file:
-            file.write(f"""
+        with open(f"./{j},{i}.js", 'w') as file:
+          file.write(f"""
 // Map for ({j},{i})
 
 import React from "react";
@@ -20,7 +20,7 @@ export default function TutorialMain() {{
           fontSize: "1.5em",
           transform: "translate(-50%, 0)",
         }}}}
-        href="https://settlersofyang.netlify.app/game/{hashlib.sha256((f'{j-1},{i}abcde').encode('ASCII')).hexdigest()}"
+        href="./game/{hashlib.sha256((f'{j-1},{i}abcde').encode('ASCII')).hexdigest()}"
       >
         North
       </a>
@@ -32,7 +32,7 @@ export default function TutorialMain() {{
           fontSize: "1.5em",
           transform: "translate(-50%, 0)",
         }}}}
-        href="https://settlersofyang.netlify.app/game/{hashlib.sha256((f'{j+1},{i}abcde').encode('ASCII')).hexdigest()}"
+        href="./game/{hashlib.sha256((f'{j+1},{i}abcde').encode('ASCII')).hexdigest()}"
       >
         South
       </a>
@@ -44,7 +44,7 @@ export default function TutorialMain() {{
           fontSize: "1.5em",
           transform: "translate(0, -50%)",
         }}}}
-        href="https://settlersofyang.netlify.app/game/{hashlib.sha256((f'{j},{i-1}abcde').encode('ASCII')).hexdigest()}"
+        href="./game/{hashlib.sha256((f'{j},{i-1}abcde').encode('ASCII')).hexdigest()}"
       >
         West
       </a>
@@ -56,7 +56,7 @@ export default function TutorialMain() {{
           fontSize: "1.5em",
           transform: "translate(0, -50%)",
         }}}}
-        href="https://settlersofyang.netlify.app/game/{hashlib.sha256((f'{j},{i+1}abcde').encode('ASCII')).hexdigest()}"
+        href="./game/{hashlib.sha256((f'{j},{i+1}abcde').encode('ASCII')).hexdigest()}"
       >
         East
       </a>
