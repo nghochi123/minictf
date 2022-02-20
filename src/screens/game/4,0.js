@@ -69,11 +69,11 @@ export default function TutorialMain() {
 
       <div
         style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
           textAlign: "center",
-          transform: "translate(50%, 50%)",
+          minHeight: "100vh",
           border: "5px solid black",
         }}
       >
@@ -82,7 +82,7 @@ export default function TutorialMain() {
           You decide to proceed deeper into the cave, maybe there will be a way out!
         </p>
       </div>
-      
+
     </div>
   );
 }       
