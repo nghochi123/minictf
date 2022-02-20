@@ -59,7 +59,6 @@ export default function TutorialMain() {
           position: "absolute",
           top: "0%",
           left: "0%",
-          transform: "translate(-50%, -50%)",
           textAlign: "center",
         }}
       >
