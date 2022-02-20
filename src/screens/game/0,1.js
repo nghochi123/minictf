@@ -63,7 +63,15 @@ export default function TutorialMain() {
           textAlign: "center",
         }}
       >
-        <img src="/map/0,1.png" alt="map" height="300" />
+        <img src="/map/0,1.png" alt="map" 
+          style={{
+            height: "300",
+            position: "absolute",
+            top: "0%",
+            left: "0%",
+            margin: "5px",
+          }}
+        />
       </div>
     </div>
   );

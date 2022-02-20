@@ -20,7 +20,7 @@ export default function TutorialMain() {{
           fontSize: "1.5em",
           transform: "translate(-50%, 0)",
         }}}}
-        href="./game/{hashlib.sha256((f'{j-1},{i}abcde').encode('ASCII')).hexdigest()}"
+        href="./{hashlib.sha256((f'{j-1},{i}abcde').encode('ASCII')).hexdigest()}"
       >
         North
       </a>
@@ -32,7 +32,7 @@ export default function TutorialMain() {{
           fontSize: "1.5em",
           transform: "translate(-50%, 0)",
         }}}}
-        href="./game/{hashlib.sha256((f'{j+1},{i}abcde').encode('ASCII')).hexdigest()}"
+        href="./{hashlib.sha256((f'{j+1},{i}abcde').encode('ASCII')).hexdigest()}"
       >
         South
       </a>
@@ -44,7 +44,7 @@ export default function TutorialMain() {{
           fontSize: "1.5em",
           transform: "translate(0, -50%)",
         }}}}
-        href="./game/{hashlib.sha256((f'{j},{i-1}abcde').encode('ASCII')).hexdigest()}"
+        href="./{hashlib.sha256((f'{j},{i-1}abcde').encode('ASCII')).hexdigest()}"
       >
         West
       </a>
@@ -56,7 +56,7 @@ export default function TutorialMain() {{
           fontSize: "1.5em",
           transform: "translate(0, -50%)",
         }}}}
-        href="./game/{hashlib.sha256((f'{j},{i+1}abcde').encode('ASCII')).hexdigest()}"
+        href="./{hashlib.sha256((f'{j},{i+1}abcde').encode('ASCII')).hexdigest()}"
       >
         East
       </a>
