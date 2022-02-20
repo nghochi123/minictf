@@ -21,30 +21,6 @@ export default function TutorialMain() {
       <a
         style={{
           position: "absolute",
-          bottom: 10,
-          left: "50%",
-          fontSize: "1.5em",
-          transform: "translate(-50%, 0)",
-        }}
-        href="./402b31cdcceb4ed6e02a6f7efcfa41a156bdcba5f1c7881686a563351d97e975"
-      >
-        South
-      </a>
-      <a
-        style={{
-          position: "absolute",
-          top: "50%",
-          left: 10,
-          fontSize: "1.5em",
-          transform: "translate(0, -50%)",
-        }}
-        href="./164682f76e990dd97f90e8ff78a29003895bef6b23f7fcf1bdc15bae4172bad3"
-      >
-        West
-      </a>
-      <a
-        style={{
-          position: "absolute",
           top: "50%",
           right: 10,
           fontSize: "1.5em",
@@ -60,7 +36,7 @@ export default function TutorialMain() {
           top: "0%",
           left: "0%",
           textAlign: "center",
-          margin: "5px",
+          margin: "10px",
           border: "5px solid black",
         }}
       >
