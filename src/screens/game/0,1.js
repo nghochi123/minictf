@@ -66,10 +66,9 @@ export default function TutorialMain() {
         <img src="/map/0,1.png" alt="map" 
           style={{
             height: "300",
-            position: "absolute",
-            top: "100%",
-            left: "100%",
-            margin: "5px",
+            position: "fixed",
+            top: "0",
+            left: "0",
           }}
         />
       </div>
