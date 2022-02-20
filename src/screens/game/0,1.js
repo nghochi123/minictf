@@ -26,7 +26,7 @@ export default function TutorialMain() {
           fontSize: "1.5em",
           transform: "translate(-50%, 0)",
         }}
-        href="https://settlersofyang.netlify.app/game/44a4fb7a5de1e98d6ceafbeab1d6358f52d7649bea27b1ba29f531c3e8f2ac46"
+        href="../game/44a4fb7a5de1e98d6ceafbeab1d6358f52d7649bea27b1ba29f531c3e8f2ac46"
       >
         South
       </a>
