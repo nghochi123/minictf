@@ -66,6 +66,20 @@ export default function TutorialMain() {
       >
         <img src="/map/1,5.png" alt="map" height="30%" />
       </div>
+
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          minHeight: "100vh",
+        }}
+      >
+        <p>
+        ← ᚫᚫ ᚥᚨᚭᚣ ᚬᚤ ᚠᚦᚠᚨᚭ
+        </p>
+      </div>
     </div>
   );
 }       

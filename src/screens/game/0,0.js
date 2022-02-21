@@ -66,22 +66,6 @@ export default function TutorialMain() {
       >
         <img src="/map/0,0.png" alt="map" height="30%" />
       </div>
-
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          textAlign: "center",
-          minHeight: "100vh",
-          border: "5px solid black",
-        }}
-      >
-        <p>
-        I am a number with a couple of friends, quarter a dozen, and you'll find me again.<br/>
-        What am I?
-        </p>
-      </div>
     </div>
   );
 }       
