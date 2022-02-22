@@ -79,7 +79,7 @@ export default function TutorialMain() {
         <p>
           The cave opens to an underground forest. <br/>
           While you stare at the forest in confusion, you spot a note nailed on a tree.<br/><br/>
-          <a href="/game/parchment-2.txt" download="parchment-2.txt">Parchment-2</a>
+          <a href="/game/parchment-2.txt" download="parchment-2.txt">Parchment-2.txt</a>
           <br/><br/>A message is scrawled on the trunk: The forest alters the <b>TYPE</b> of its inhabitants.
         </p>
       </div>
