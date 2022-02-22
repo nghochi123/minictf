@@ -76,7 +76,25 @@ export default function TutorialMain() {
           minHeight: "100vh",
         }}
       >
-        <img src="/game/parchment-1.png" alt="parchment-1" height="20%"/>
+        <a download={"parchment-1.png"} href={"/game/parchment-1.png"}>
+          <img 
+            src="/game/parchment in sand.jpg" 
+            alt="parchment-bg"
+            style={{height: "300px", display: "absolute"}}
+          />
+          <div 
+            style={{
+              position: "absolute", 
+              top: "50%", 
+              left: "50%", 
+              transform: "translate(-50%, -50%)",
+              color: "black",
+            }}
+          >
+            You spot a note buried in the sand dune.<br/>
+            Bending down, you pick it up.
+          </div>
+        </a>
       </div>
     </div>
   );

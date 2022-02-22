@@ -68,3 +68,17 @@
   bottom:0;
   right:0;
 }
+
+.invisLink {
+  text-decoration: none;
+  color: transparent;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  font-size: 1.5em;
+  transform: translate(-50%, 0);
+}
+
+.invisLink:hover {
+  color: blue;
+}

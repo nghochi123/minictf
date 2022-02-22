@@ -34,18 +34,6 @@ export default function TutorialMain() {
         style={{
           position: "absolute",
           top: "50%",
-          left: 10,
-          fontSize: "1.5em",
-          transform: "translate(0, -50%)",
-        }}
-        href="./62526b384dc245bb1de4b126c505afe337924c7af42899a97031cf0c70bd5f4d"
-      >
-        West
-      </a>
-      <a
-        style={{
-          position: "absolute",
-          top: "50%",
           right: 10,
           fontSize: "1.5em",
           transform: "translate(0, -50%)",

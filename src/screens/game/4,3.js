@@ -2,6 +2,7 @@
 // Map for (4,3)
 
 import React from "react";
+import '../../App.css';
 
 export default function TutorialMain() {
   return (
@@ -19,14 +20,8 @@ export default function TutorialMain() {
         North
       </a>
       <a
-        style={{
-          position: "absolute",
-          bottom: 10,
-          left: "50%",
-          fontSize: "1.5em",
-          transform: "translate(-50%, 0)",
-        }}
-        href="./2f4c865bbc7c8cdb8544a8c25da32965cbfcd5fb4c7d0b278132c4f898bad38f"
+        className="invisLink"
+        href="./c16625ef37dd52d2e6ecc252a2d7c2564bd2513f726967dab80e90050337b3af"
       >
         South
       </a>

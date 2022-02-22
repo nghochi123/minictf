@@ -31,6 +31,7 @@ import GameMap15 from "./1,5";
 import GameMap25 from "./2,5";
 import GameMap35 from "./3,5";
 import GameMap45 from "./4,5";
+import TreasureEnding from "./TreasureEnding";
 import Missing from "./Missing";
 
 export default function GameMain() {
@@ -156,6 +157,10 @@ export default function GameMain() {
         <Route
           path={`/0102a778bdf45eac8270c9eda194419be4435645aa6cd0dffe584a1850a3f09c`}
           element={<GameMap45 />}
+        />
+        <Route 
+          path={`c16625ef37dd52d2e6ecc252a2d7c2564bd2513f726967dab80e90050337b3af`}
+          element={<TreasureEnding />}
         />
         <Route path={`/*`} element={<Missing />} />
       </Routes>

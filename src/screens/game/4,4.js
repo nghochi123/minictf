@@ -1,5 +1,6 @@
 
 // Map for (4,4)
+// Ending for treasure map
 
 import React from "react";
 
@@ -18,18 +19,7 @@ export default function TutorialMain() {
       >
         North
       </a>
-      <a
-        style={{
-          position: "absolute",
-          bottom: 10,
-          left: "50%",
-          fontSize: "1.5em",
-          transform: "translate(-50%, 0)",
-        }}
-        href="./76464416e991444913fda51d0893b88c89269bfc2e16444a9a332c3bac2f8fe9"
-      >
-        South
-      </a>
+      
       <a
         style={{
           position: "absolute",

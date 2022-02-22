@@ -9,18 +9,6 @@ export default function TutorialMain() {
       <a
         style={{
           position: "absolute",
-          top: 10,
-          left: "50%",
-          fontSize: "1.5em",
-          transform: "translate(-50%, 0)",
-        }}
-        href="./f86a23a5e2d0a696630ccc31fc9f8099f393b5de0f138b46821323f4b1e7a354"
-      >
-        North
-      </a>
-      <a
-        style={{
-          position: "absolute",
           bottom: 10,
           left: "50%",
           fontSize: "1.5em",

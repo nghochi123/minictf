@@ -18,18 +18,7 @@ export default function TutorialMain() {
       >
         North
       </a>
-      <a
-        style={{
-          position: "absolute",
-          bottom: 10,
-          left: "50%",
-          fontSize: "1.5em",
-          transform: "translate(-50%, 0)",
-        }}
-        href="./4dac9f7f27e0041b1ce23ac475140842a188c0e7a1fdf5423414279f6567d5ed"
-      >
-        South
-      </a>
+      
       <a
         style={{
           position: "absolute",
@@ -42,18 +31,7 @@ export default function TutorialMain() {
       >
         West
       </a>
-      <a
-        style={{
-          position: "absolute",
-          top: "50%",
-          right: 10,
-          fontSize: "1.5em",
-          transform: "translate(0, -50%)",
-        }}
-        href="./6b93c052b9e487e2e25425ea131afaab5ea95c439add7737b9ef0c6c647c50f3"
-      >
-        East
-      </a>
+      
       <div
         style={{
           position: "absolute",
