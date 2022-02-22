@@ -76,7 +76,7 @@ export default function TutorialMain() {
           minHeight: "100vh",
         }}
       >
-        <img src="/game/parchment-3.png" alt="parchment-3" height="40%"/>
+        <img src="/game/parchment-3.png" alt="parchment-3" height="20%"/>
       </div>
     </div>
   );
