@@ -76,7 +76,14 @@ export default function TutorialMain() {
           minHeight: "100vh",
         }}
       >
-        <img src="/game/parchment-2.png" alt="parchment-2" height="20%"/>
+        <p>
+          The cave opens to an underground forest. <br/>
+          While you stare at the forest in confusion, you spot a note nailed on a tree.
+        </p>
+        <a href="/game/parchment-2.txt">Parchment-2</a>
+        <p>
+          A message is scrawled on the trunk: The forest alters the <b>TYPE</b> of its inhabitants.
+        </p>
       </div>
     </div>
   );
