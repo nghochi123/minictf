@@ -66,6 +66,18 @@ export default function TutorialMain() {
       >
         <img src="/map/0,0.png" alt="map" height="30%" />
       </div>
+
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          minHeight: "100vh",
+        }}
+      >
+        <img src="/game/parchment-2.png" alt="parchment-2" height="40%"/>
+      </div>
     </div>
   );
 }       
