@@ -2,6 +2,7 @@
 // Map for (3,3)
 
 import React from "react";
+import "react-jsx-html-comments";
 
 export default function TutorialMain() {
   return (
@@ -66,7 +67,12 @@ export default function TutorialMain() {
       >
         <img src="/map/3,3.png" alt="map" height="30%" />
       </div>
-
+      <img 
+        src="/game/parchment-3.png" 
+        alt="hidden"
+        style={{height: "60vh", display: "absolute"}}
+        hidden
+      />
       <div
         style={{
           display: "flex",
@@ -76,9 +82,31 @@ export default function TutorialMain() {
           minHeight: "100vh",
         }}
       >
-        <img src="/game/parchment-3.png" alt="parchment-3" height="20%"/>
+        <img 
+          src="/backgrounds/cave-chamber.jpg" 
+          alt="hidden"
+          style={{
+            height: "70vh", 
+            display: "absolute",
+          }}
+        />
+        <div 
+          style={{
+            position: "absolute", 
+            top: "50%", 
+            left: "50%", 
+            transform: "translate(-50%, -50%)",
+            color: "white",
+          }}
+        >
+          <p>
+            Walking through a dimly lit room, you spot a message carved on the wall:<br/>
+            The key to this room is <span style={{color: '#26ff00'}}>GREEN</span>
+          </p>                              
+        </div>
       </div>
-    </div>
+        <react-comment>This page hides a secret image! Look above!</react-comment>
+    </div>                                                            
   );
-}       
+}             
             

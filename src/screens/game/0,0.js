@@ -56,26 +56,26 @@ export default function TutorialMain() {
             src="/backgrounds/underground forest.jfif" 
             alt="underground forest"
             style={{height: "60vh", display: "absolute"}}
-          />
-          <div 
-            style={{
-              position: "absolute", 
-              top: "50%", 
-              left: "50%", 
-              transform: "translate(-50%, -50%)",
-              color: "white",
-            }}
-          >
-            <p>
-              The cave opens to an underground forest. <br/>
-              While you stare at the forest in confusion, you spot a note nailed on a tree.<br/><br/>
-              <a href="/game/parchment-2.txt" download="parchment-2.txt" style={{color: "white"}}>
-                Parchment-2.txt
-              </a>
-              <br/><br/>A message is scrawled on the trunk: <br/>
-              The mirage forest alters the <b>TYPE</b> of its inhabitants.
-            </p>
-          </div>
+        />
+        <div 
+          style={{
+            position: "absolute", 
+            top: "50%", 
+            left: "50%", 
+            transform: "translate(-50%, -50%)",
+            color: "white",
+          }}
+        >
+          <p>
+            The cave opens to an underground forest. <br/>
+            While you stare at the forest in confusion, you spot a note nailed on a tree.<br/><br/>
+            <a href="/game/parchment-2.txt" download="parchment-2.txt" style={{color: "white"}}>
+              Parchment-2.txt
+            </a>
+            <br/><br/>A message is scrawled on the trunk: <br/>
+            The Forest of Mirages alters the <b>TYPE</b> of its inhabitants.
+          </p>
+        </div>
       </div>
     </div>
   );

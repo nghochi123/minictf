@@ -54,6 +54,23 @@ export default function TutorialMain() {
       >
         <img src="/map/1,0.png" alt="map" height="30%" />
       </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          minHeight: "100vh",
+        }}
+      >
+        <a download={"map.jpg"} href={"/game/map.jpg"}>
+          <img 
+            src="/game/map.jpg" 
+            alt="map"
+            style={{height: "70vh", display: "absolute"}}
+          />
+        </a>
+      </div>
     </div>
   );
 }       
