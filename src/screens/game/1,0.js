@@ -63,7 +63,7 @@ export default function TutorialMain() {
           minHeight: "100vh",
         }}
       >
-        <a download={"map.jpg"} href={"/game/map.jpg"}>
+        <a download={"treasure map.jpg"} href={"/game/map.jpg"}>
           <img 
             src="/game/map.jpg" 
             alt="map"

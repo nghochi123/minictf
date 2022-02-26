@@ -55,7 +55,7 @@ export default function TutorialMain() {
         }}
       >
         <p>
-          You found yourselves trapped in a dark and spooky cave with the entrance sealed off.<br/>
+          After you entered the dungeon, the entrance suddenly collapsed!<br/>
           You decide to proceed deeper into the cave, maybe there will be a way out!
         </p>
       </div>
