@@ -10,6 +10,7 @@
 
 # production
 /build
+/public/game/xcf
 
 # misc
 .DS_Store

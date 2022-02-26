@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-// import GameMap00 from "./0,0";
+import GameMap00 from "./0,0";
 import GameMap10 from "./1,0";
 import GameMap20 from "./2,0";
 import GameMap30 from "./3,0";
@@ -31,16 +31,18 @@ import GameMap15 from "./1,5";
 import GameMap25 from "./2,5";
 import GameMap35 from "./3,5";
 import GameMap45 from "./4,5";
+import TreasureEnding from "./TreasureEnding";
 import Missing from "./Missing";
+import Ending from "./Ending";
 
 export default function GameMain() {
   return (
     <div>
       <Routes>
-        {/* <Route
+        <Route
           path={`/178e450bf3726515417cea82ea10b5bc36540c49a66f460c4f847d9c39de037b`}
           element={<GameMap00 />}
-        /> */}
+        />
         <Route
           path={`/fe2267d9198219da887760a0f36389966c7c4d745613ecde9a4924d181059aec`}
           element={<GameMap10 />}
@@ -156,6 +158,14 @@ export default function GameMain() {
         <Route
           path={`/0102a778bdf45eac8270c9eda194419be4435645aa6cd0dffe584a1850a3f09c`}
           element={<GameMap45 />}
+        />
+        <Route 
+          path={`c16625ef37dd52d2e6ecc252a2d7c2564bd2513f726967dab80e90050337b3af`}
+          element={<TreasureEnding />}
+        />
+        <Route 
+          path={`6cbf40494f64db7248d7d4d7737f772d6f80941cb93389b49d4321487328acb8`}
+          element={<Ending />}
         />
         <Route path={`/*`} element={<Missing />} />
       </Routes>
