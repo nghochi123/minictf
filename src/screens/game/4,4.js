@@ -56,6 +56,25 @@ export default function TutorialMain() {
       >
         <img src="/map/4,4.png" alt="map" height="30%" />
       </div>
+
+      <div
+        style={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          transform: "translate(-50%, -50%)",
+        }}
+      >
+        <p style={{width: "100%"}}>Despite the danger that the dungeon presents, sailing across the ocean is strangely calming</p>
+        <img 
+          src="/backgrounds/ocean.jpg" 
+          alt="map"
+          style={{height: "70vh", display: "absolute"}}
+        />
+      </div>
     </div>
   );
 }       

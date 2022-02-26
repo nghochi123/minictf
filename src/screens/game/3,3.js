@@ -100,8 +100,8 @@ export default function TutorialMain() {
           }}
         >
           <p>
-            Walking through a dimly lit room, you spot a message carved on the wall:<br/>
-            The key to this room is <span style={{color: '#26ff00'}}>GREEN</span>
+            Walking through a dimly lit room, you spot a message carved on the wall:<br/><br/>
+            The answer in this room is <span style={{color: '#26ff00'}}>GREEN</span>
           </p>                              
         </div>
       </div>

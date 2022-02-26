@@ -61,6 +61,25 @@ export default function TutorialMain() {
       >
         <img src="/map/4,3.png" alt="map" height="30%" />
       </div>
+
+      <div
+        style={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          transform: "translate(-50%, -50%)",
+        }}
+      >
+        <p style={{width: "100%"}}>The grasslands give way to a shallow ocean. There's a boat tethered to the shore.</p>
+        <img 
+          src="/backgrounds/grasslands.jpg" 
+          alt="map"
+          style={{height: "70vh", display: "absolute"}}
+        />
+      </div>
     </div>
   );
 }       

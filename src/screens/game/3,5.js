@@ -55,6 +55,25 @@ export default function TutorialMain() {
       >
         <img src="/map/3,5.png" alt="map" height="30%" />
       </div>
+
+      <div
+        style={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          transform: "translate(-50%, -50%)",
+        }}
+      >
+        <p style={{width: "100%"}}>The mines open into a vast ocean. Fortunately, there is a boat anchored to the shore.</p>
+        <img 
+          src="/backgrounds/mines.jpg" 
+          alt="map"
+          style={{height: "70vh", display: "absolute"}}
+        />
+      </div>
     </div>
   );
 }       

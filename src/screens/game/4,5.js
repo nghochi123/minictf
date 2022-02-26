@@ -29,9 +29,20 @@ export default function TutorialMain() {
         }}
         href="./c1ef461e1a44abbc733181c22e93ef12d8954656d5412e5eef1de00202ee9a33"
       >
+        <p
+        style={{
+          position: "absolute",
+          top: "10%",
+          left: "95%",
+          color: "white",
+          fontSize: "0.6em",
+        }}
+        >
+          is
+        </p>
         West
       </a>
-      
+
       <div
         style={{
           position: "absolute",
@@ -43,6 +54,25 @@ export default function TutorialMain() {
         }}
       >
         <img src="/map/4,5.png" alt="map" height="30%" />
+      </div>
+
+      <div
+        style={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          transform: "translate(-50%, -50%)",
+        }}
+      >
+        <p style={{width: "100%"}}>While sailing across the ocean, you spot a glimpse of something, but it disappears as quickly as you spot it</p>
+        <img 
+          src="/backgrounds/ocean.jpg" 
+          alt="map"
+          style={{height: "70vh", display: "absolute"}}
+        />
       </div>
     </div>
   );

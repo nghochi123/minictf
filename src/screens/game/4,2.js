@@ -55,6 +55,25 @@ export default function TutorialMain() {
       >
         <img src="/map/4,2.png" alt="map" height="30%" />
       </div>
+
+      <div
+        style={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          transform: "translate(-50%, -50%)",
+        }}
+      >
+        <p style={{width: "100%"}}>You entered a mysterious grassfield. The grass seem healthy despite the lack of sun</p>
+        <img 
+          src="/game/grasslands.jpg" 
+          alt="map"
+          style={{height: "70vh", display: "absolute"}}
+        />
+      </div>
     </div>
   );
 }       
